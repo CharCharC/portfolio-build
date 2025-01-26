@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Robot Arm Simulation Using Forward Kinematics",
+        "card_image": "./project-imgs/robot-arm.png",
+        "description": [
+            "In this project, I developed a robotic arm simulation using Python and 3D modeling software. I began by designing and modeling a 3D robotic arm in Fusion 360, refining my 3D modeling skills. The completed 3D model was then imported into a Python environment using the vedo library, where it was represented as a mesh using NumPy arrays.",
+            "In the next phase of this project, I implemented forward kinematics to move the position of the end effector based on the movements of the individual joints. Each joint had its own coordinate frame, so a kinematic chain was established to accurately translate the movements between different joints.",
+            "The final phase of the project was to be able to make the arm move its end effector from a starting position to a goal. To achieve the desired end-effector positions, I employed gradient descent. This required me to calculate the Jacobian matrix to determine the gradient at each step, guiding the arm towards the goal position. A carefully chosen learning rate prevented overshooting during this iterative process. Inverse kinematics was then used to translate the calculated end-effector positions at each step into corresponding joint movements.",
+            "In the animation above, the successful implementation of forward and inverse kinematics is shown. Three robotic arms with varying initial positions were simulated, each converging towards two distinct goal positions."
+        ]
+    },
+    {
+        "name": "Dynamic SPECT Image Reconstruction",
+        "card_image": "./project-imgs/Lab_logo_w_lab.svg",
+        "description": [
+            "Within Florida Tech's Biomedical Image Computation Lab, I contributed to the Dynamic Image Reconstruction project, focusing on two key areas: SIFADS algorithm and generating a statistical model for tracer distribution.",
+            "I worked extensively with the C implementation of SIFADS (Spline Initiated Factor Analysis of Dynamic Structures). My contributions included: Identifying and resolving critical bugs, optimizing the algorithm for improved performance, and refining regularization techniques, particularly focusing on static and dynamic binary masks. These regularization masks significantly reduced data complexity, enabling faster algorithm convergence.",
+            "After working on SIFADS, I pivoted towards data generation.  To advance the deep learning algorithms used for reconstruction, the lab needed large datasets, for which I developed a statistical model to aid in the creation of realistic virtual SPECT images.  To do this I analyzed a substantial number of real SPECT images, reconstructing them using SIFADS and isolating organ regions using binary masks. Utilizing Python and matplotlib, I fitted statistical curves to the tracer distributions within each organ. This research culminated in a published paper presented at the 2024 IEEE Medical Imaging Conference, outlining the statistical distributions for various organs.",
+            "The generated statistical models are expected to play a crucial role in creating more realistic virtual SPECT images for training deep learning-based reconstruction algorithms."
+        ]
+    },
+    {
+        "name": "Student Code Online Review and Evaluation",
+        "card_image": "./project-imgs/SCORE.png",
+        "description": [
+            "The Student Code Online Review and Evaluation (SCORE) project, initiated by Dr. Mohan at Florida Tech, aims to enhance the classroom experience by introducing elements of competitive programming. The key features of this application are: automated testing and feedback, user-friendly web application, and Canvas integration.",
+            "While this project is still ongoing, the current implementation includes a completed server-client architecture.  The server-side logic handles the core functionalities of SCORE including file transfer via SFTP and automated testing environments using Docker containers.  The client-side is a shell application run through a command line interface. It has passthrough allowing the user to use all native shell commands, whilst interacting with the server to execute SCORE commands.",
+            "My most important contribution to this project thus far has been with TCP networking.  This connection is how the client shell interacts with the server.  Both the client shell and the TCP logic were implemented in Rust, and the server spawns a thread for each TCP client connection it receives."
+        ]
+    },
+    {
+        "name": "User Autocomplete",
+        "card_image": "./project-imgs/trie-2.png",
+        "description": [
+            "This was the final project for my Data Structures and Algorithms course, where the objective was to develop an autocomplete algorithm that could predict complete words based on partial user input. To accomplice this I implemented a trie data structure to efficiently store and search for words. A trie is a tree-like data structure where each node represents a single letter, such that traversing from the root to a leaf will result in a full word. The project was evaluated based on a performance score considering factors such as execution time, memory usage, accuracy, and the number of input characters required to achieve correct predictions.",
+            "The project was completed in two phases, with the chance to improve my performance score in between. In order to enhance performance in the second phase, I optimized the trie by using a smaller dictionary containing only the most frequently used words. This significantly improved efficiency, as the algorithm would primarily focus on words likely to be encountered by users. If an obscure word was used, it would be added to the structure in case it was domain specific to the user.",
+            "From this project I reinforced my understanding of trie data structures and their efficient implementation, gained valuable experience in optimizing algorithm performance through data selection and refinement, and learned the importance of iterative development and performance analysis in achieving optimal results."
+        ]
+    },
+    {
+        "name": "Tetris in Assembly",
+        "card_image": "./project-imgs/tetris.png",
+        "description": [
+            "For my final project in the Assembly and Architecture course, I developed a Tetris game using Microsoft Macro Assembler (MASM). To efficiently represent the game board, I represented each row as a byte. Each bit within a byte corresponded to a column, making it simple to detect complete rows (where all bits are set to 1, resulting in a byte value of 255). A significant challenge was implementing accurate collision detection. To solve this problem, I focused on identifying the bottom edges of each falling block. By tracking only the position of these edges, I could efficiently determine if any part of the block collided with existing pieces or the game board boundaries.",
+            "This project provided valuable experience in low-level programming with assembly language, including memory management, bitwise operations, and game logic implementation. I gained a deeper understanding of efficient data representation and the importance of optimized algorithms for development."
+        ]
+    },
+    {
+        "name": "Othello AI Player",
+        "card_image": "./project-imgs/othello.png",
+        "description": [
+            "This was the final project for my Introduction to Artificial Intelligence course, where the objective was to develop an AI player for the game of Othello and compete against other student-created AI players.  For my AI player, I implemented a minimax search algorithm, an adversarial search technique that aims to maximize the player's score while minimizing the opponent's score. To improve the efficiency of the minimax search, I incorporated alpha-beta pruning, a technique that significantly reduces the number of nodes explored in the game tree.",
+            "Initially, I used a simple objective function based on the difference between the player's and opponent's scores. However, after initial testing I was not satisfied with the performance of the AI player. To enhance performance, I introduced a weighted matrix that assigned higher values to more strategically important positions on the board, guiding the AI towards more advantageous moves.",
+            "This project provided valuable hands-on experience in implementing fundamental AI search algorithms, such as minimax and alpha-beta pruning. Also, I gained insights into the process of improving the performance of AI agents."
+        ]
+    }
+]

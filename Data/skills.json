@@ -1,0 +1,117 @@
+{
+    "Programming Languages": [
+        {
+        "name": "Java",
+        "proficiency": "Advanced",
+        "image": "./skill-imgs/Java-Logo.png"
+        },
+        {
+        "name": "Python",
+        "proficiency": "Advanced",
+        "image": "./skill-imgs/python.svg"
+        },
+        {
+        "name": "C++",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/ISO_C++_Logo.svg.png"
+        },
+        {
+        "name": "C",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/C_Logo.png"
+        },
+        {
+        "name": "Javascript",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/JavaScript-logo.png"
+        },
+        {
+        "name": "Rust",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/rust-logo-png-transparent.png"
+        },
+        {
+        "name": "Go",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/Go-Logo_Blue.png"
+        },
+        {
+        "name": "Ada",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/Ada_horizon_green_logo_with_slogan.svg.png"
+        }
+    ],
+    "Frameworks": [
+        {
+        "name": "React",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/React-icon.svg.png"
+        },
+        {
+        "name": "Node.js",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/node-js-icon-1817x2048-g8tzf91e.png"
+        }
+    ],
+    "Databases": [
+        {
+        "name": "SQL",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/sql-database-generic-icon-1521x2048-d0vdpxpg.png"
+        },
+        {
+        "name": "MongoDB",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/MongoDB-Logo.png"
+        }
+    ],
+    "Operating Systems": [
+        {
+        "name": "Windows",
+        "proficiency": "Advanced",
+        "image": "./skill-imgs/Windows-New-Logo.png"
+        },
+        {
+        "name": "Linux",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/Tux.svg.png"
+        },
+        {
+        "name": "INTEGRITY OS",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/Green-Hills-Software-logo-fifty.png"
+        }
+    ],
+    "Development Tools": [
+        {
+        "name": "Git",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/Git_icon.svg.png"
+        },
+        {
+        "name": "Subversion",
+        "proficiency": "Intermediate",
+        "image": "./skill-imgs/Apache_Subversion_logo.svg.png"
+        },
+        {
+        "name": "VsCode",
+        "proficiency": "Advanced",
+        "image": "./skill-imgs/Visual_Studio_Code_1.35_icon.svg.png"
+        },
+        {
+        "name": "Jira",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/jira-1.svg"
+        },
+        {
+        "name": "RTC",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/ibmrationallogo.png"
+        },
+        {
+        "name": "Polaris",
+        "proficiency": "Beginner",
+        "image": "./skill-imgs/black_duck_software_logo.jfif"
+        }
+    ]
+}
